@@ -1,0 +1,156 @@
+<!-- SVG Icon Sprite — Clean Technology Website -->
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none">
+
+  <!-- Leaf / Brand icon -->
+  <symbol id="icon-leaf" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M17 8C8 10 5.9 16.17 3.82 21.34L5.71 22l1-2.3A4.49 4.49 0 0 0 8 20c4 0 8.68-3.9 9-12Z"/>
+    <path d="M6 15s-1.5-2 1-4.5"/>
+  </symbol>
+
+  <!-- Globe / Earth -->
+  <symbol id="icon-globe" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="12" cy="12" r="10"/>
+    <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/>
+    <path d="M2 12h20"/>
+  </symbol>
+
+  <!-- Bolt / Energy -->
+  <symbol id="icon-bolt" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M13 2 3 14h9l-1 8 10-12h-9l1-8z"/>
+  </symbol>
+
+  <!-- Battery -->
+  <symbol id="icon-battery" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="1" y="6" width="18" height="12" rx="2"/>
+    <path d="M23 10v4"/>
+    <path d="M7 10v4"/>
+    <path d="M11 10v4"/>
+  </symbol>
+
+  <!-- Car / EV -->
+  <symbol id="icon-car" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9L18 10l-3.4-3.4c-.4-.4-.9-.6-1.4-.6H7.8c-.5 0-1 .2-1.4.6L3 10l-2.5 1.1C.2 11.3-.1 12.1 0 13v3c0 .6.4 1 1 1h2"/>
+    <circle cx="7" cy="17" r="2"/>
+    <circle cx="17" cy="17" r="2"/>
+  </symbol>
+
+  <!-- Building / Construction -->
+  <symbol id="icon-building" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="4" y="2" width="16" height="20" rx="2"/>
+    <path d="M9 22v-4h6v4"/>
+    <path d="M8 6h.01"/>
+    <path d="M16 6h.01"/>
+    <path d="M12 6h.01"/>
+    <path d="M12 10h.01"/>
+    <path d="M12 14h.01"/>
+    <path d="M16 10h.01"/>
+    <path d="M16 14h.01"/>
+    <path d="M8 10h.01"/>
+    <path d="M8 14h.01"/>
+  </symbol>
+
+  <!-- Droplet / Water -->
+  <symbol id="icon-droplet" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M12 22a7 7 0 0 0 7-7c0-2-1-3.9-3-5.5s-3.5-4-4-6.5c-.5 2.5-2 4.9-4 6.5S5 13 5 15a7 7 0 0 0 7 7z"/>
+  </symbol>
+
+  <!-- Sprout / Seedling -->
+  <symbol id="icon-sprout" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M7 20h10"/>
+    <path d="M10 20c5.5-2.5 8-7 8-14"/>
+    <path d="M9.7 8.4C8 11.3 6 15 6 20"/>
+    <path d="M12 6c1.5 0 6 .5 6 4 0 2-1.5 3-3 3s-3-1-3-3c0-2 1.5-3 3-3"/>
+    <path d="M12 6c-1.5 0-6 .5-6 4 0 2 1.5 3 3 3s3-1 3-3c0-2-1.5-3-3-3"/>
+  </symbol>
+
+  <!-- Sun / Solar -->
+  <symbol id="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="12" cy="12" r="4"/>
+    <path d="M12 2v2"/>
+    <path d="M12 20v2"/>
+    <path d="m4.93 4.93 1.41 1.41"/>
+    <path d="m17.66 17.66 1.41 1.41"/>
+    <path d="M2 12h2"/>
+    <path d="M20 12h2"/>
+    <path d="m6.34 17.66-1.41 1.41"/>
+    <path d="m19.07 4.93-1.41 1.41"/>
+  </symbol>
+
+  <!-- Wind -->
+  <symbol id="icon-wind" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M17.7 7.7a2.5 2.5 0 1 1 1.8 4.3H2"/>
+    <path d="M9.6 4.6A2 2 0 1 1 11 8H2"/>
+    <path d="M12.6 19.4A2 2 0 1 0 14 16H2"/>
+  </symbol>
+
+  <!-- Thermometer -->
+  <symbol id="icon-thermometer" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M14 4v10.54a4 4 0 1 1-4 0V4a2 2 0 0 1 4 0Z"/>
+  </symbol>
+
+  <!-- Dollar / Money -->
+  <symbol id="icon-dollar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <line x1="12" y1="1" x2="12" y2="23"/>
+    <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+  </symbol>
+
+  <!-- Hydrogen / Wind-alt (gas) -->
+  <symbol id="icon-hydrogen" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M12 2v6"/>
+    <path d="m4.93 10.93 1.41 1.41"/>
+    <path d="M2 18h2"/>
+    <path d="M20 18h2"/>
+    <path d="m19.07 10.93-1.41 1.41"/>
+    <path d="M22 22H2"/>
+    <path d="m8 6 4-4 4 4"/>
+    <path d="M16 18a4 4 0 0 0-8 0"/>
+  </symbol>
+
+  <!-- Factory / Industry -->
+  <symbol id="icon-factory" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M2 20a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8l-7 5V8l-7 5V4a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2Z"/>
+    <path d="M17 18h1"/>
+    <path d="M12 18h1"/>
+    <path d="M7 18h1"/>
+  </symbol>
+
+  <!-- Waves / Ocean -->
+  <symbol id="icon-waves" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M2 6c.6.5 1.2 1 2.5 1C7 7 7 5 9.5 5c2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1"/>
+    <path d="M2 12c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1"/>
+    <path d="M2 18c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1"/>
+  </symbol>
+
+  <!-- Atom / Nuclear -->
+  <symbol id="icon-atom" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="12" cy="12" r="1"/>
+    <path d="M20.2 20.2c2.04-2.03.02-7.36-4.5-11.9-4.54-4.52-9.87-6.54-11.9-4.5-2.04 2.03-.02 7.36 4.5 11.9 4.54 4.52 9.87 6.54 11.9 4.5Z"/>
+    <path d="M15.7 15.7c4.52-4.54 6.54-9.87 4.5-11.9-2.03-2.04-7.36-.02-11.9 4.5-4.52 4.54-6.54 9.87-4.5 11.9 2.03 2.04 7.36.02 11.9-4.5Z"/>
+  </symbol>
+
+  <!-- Wheat / Agriculture -->
+  <symbol id="icon-wheat" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M2 22 16 8"/>
+    <path d="M3.47 12.53 5 11l1.53 1.53a3.5 3.5 0 0 1 0 4.94L5 19l-1.53-1.53a3.5 3.5 0 0 1 0-4.94Z"/>
+    <path d="M7.47 8.53 9 7l1.53 1.53a3.5 3.5 0 0 1 0 4.94L9 15l-1.53-1.53a3.5 3.5 0 0 1 0-4.94Z"/>
+    <path d="M11.47 4.53 13 3l1.53 1.53a3.5 3.5 0 0 1 0 4.94L13 11l-1.53-1.53a3.5 3.5 0 0 1 0-4.94Z"/>
+    <path d="M20 2h2v2a4 4 0 0 1-4 4h-2V6a4 4 0 0 1 4-4Z"/>
+    <path d="M11.47 17.47 13 19l-1.53 1.53a3.5 3.5 0 0 1-4.94 0L5 19l1.53-1.53a3.5 3.5 0 0 1 4.94 0Z"/>
+    <path d="M15.47 13.47 17 15l-1.53 1.53a3.5 3.5 0 0 1-4.94 0L9 15l1.53-1.53a3.5 3.5 0 0 1 4.94 0Z"/>
+    <path d="M19.47 9.47 21 11l-1.53 1.53a3.5 3.5 0 0 1-4.94 0L13 11l1.53-1.53a3.5 3.5 0 0 1 4.94 0Z"/>
+  </symbol>
+
+  <!-- Lungs / Health -->
+  <symbol id="icon-lungs" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M6.081 20C2.642 20 .5 17.743.5 14.308c0-2.146.88-3.538 2.335-5.236C4.535 7.05 6.327 5.498 7.5 2h1c.667 1.333 1 2.667 1 4v6.5c0 .837-.164 1.593-.5 2.5"/>
+    <path d="M17.919 20c3.439 0 5.581-2.257 5.581-5.692 0-2.146-.88-3.538-2.335-5.236C19.465 7.05 17.673 5.498 16.5 2h-1c-.667 1.333-1 2.667-1 4v6.5c0 .837.164 1.593.5 2.5"/>
+    <path d="M12 4v16"/>
+  </symbol>
+
+  <!-- Arrow Right -->
+  <symbol id="icon-arrow-right" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M5 12h14"/>
+    <path d="m12 5 7 7-7 7"/>
+  </symbol>
+
+</svg>

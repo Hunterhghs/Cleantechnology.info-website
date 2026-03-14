@@ -9,15 +9,22 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
-  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌿</text></svg>">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2334d399' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M17 8C8 10 5.9 16.17 3.82 21.34L5.71 22l1-2.3A4.49 4.49 0 0 0 8 20c4 0 8.68-3.9 9-12Z'/><path d='M6 15s-1.5-2 1-4.5'/></svg>">
 </head>
 <body>
+
+  <!-- SVG Icon Definitions -->
+  <svg xmlns="http://www.w3.org/2000/svg" style="display:none">
+    <symbol id="icon-leaf" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 8C8 10 5.9 16.17 3.82 21.34L5.71 22l1-2.3A4.49 4.49 0 0 0 8 20c4 0 8.68-3.9 9-12Z"/><path d="M6 15s-1.5-2 1-4.5"/></symbol>
+    <symbol id="icon-thermometer" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 4v10.54a4 4 0 1 1-4 0V4a2 2 0 0 1 4 0Z"/></symbol>
+    <symbol id="icon-lungs" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6.081 20C2.642 20 .5 17.743.5 14.308c0-2.146.88-3.538 2.335-5.236C4.535 7.05 6.327 5.498 7.5 2h1c.667 1.333 1 2.667 1 4v6.5c0 .837-.164 1.593-.5 2.5"/><path d="M17.919 20c3.439 0 5.581-2.257 5.581-5.692 0-2.146-.88-3.538-2.335-5.236C19.465 7.05 17.673 5.498 16.5 2h-1c-.667 1.333-1 2.667-1 4v6.5c0 .837.164 1.593.5 2.5"/><path d="M12 4v16"/></symbol>
+  </svg>
 
   <!-- ===== HEADER ===== -->
   <header class="header">
     <div class="container">
       <a href="index.html" class="logo">
-        <div class="logo-icon">🌿</div>
+        <div class="logo-icon"><svg class="icon"><use href="#icon-leaf"/></svg></div>
         CleanTech
       </a>
       <nav class="nav-links">
@@ -83,7 +90,7 @@
     <div class="container">
       <div class="feature-block fade-up">
         <div class="feature-visual">
-          <div class="feature-visual-icon">🌡️</div>
+          <div class="feature-visual-icon"><svg class="icon"><use href="#icon-thermometer"/></svg></div>
         </div>
         <div class="feature-text">
           <span class="label">Carbon Reduction</span>
@@ -99,7 +106,7 @@
       </div>
       <div class="feature-block fade-up">
         <div class="feature-visual">
-          <div class="feature-visual-icon">🫁</div>
+          <div class="feature-visual-icon"><svg class="icon"><use href="#icon-lungs"/></svg></div>
         </div>
         <div class="feature-text">
           <span class="label">Public Health</span>
@@ -277,7 +284,7 @@
       <div class="footer-grid">
         <div class="footer-brand">
           <a href="index.html" class="logo">
-            <div class="logo-icon">🌿</div>
+            <div class="logo-icon"><svg class="icon"><use href="#icon-leaf"/></svg></div>
             CleanTech
           </a>
           <p>Your comprehensive resource for understanding clean technology innovations and their impact on our world.</p>
