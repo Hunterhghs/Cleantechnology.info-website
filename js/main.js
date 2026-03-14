@@ -22,18 +22,37 @@ document.addEventListener('DOMContentLoaded', () => {
   const menuToggle = document.querySelector('.menu-toggle');
   const navLinks = document.querySelector('.nav-links');
 
+  // Create overlay element
+  const navOverlay = document.createElement('div');
+  navOverlay.className = 'nav-overlay';
+  document.body.appendChild(navOverlay);
+
+  function openMenu() {
+    navLinks.classList.add('open');
+    menuToggle.classList.add('active');
+    navOverlay.style.display = 'block';
+    requestAnimationFrame(() => navOverlay.classList.add('visible'));
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeMenu() {
+    navLinks.classList.remove('open');
+    menuToggle.classList.remove('active');
+    navOverlay.classList.remove('visible');
+    document.body.style.overflow = '';
+    setTimeout(() => { navOverlay.style.display = 'none'; }, 300);
+  }
+
   if (menuToggle) {
     menuToggle.addEventListener('click', () => {
-      navLinks.classList.toggle('open');
-      menuToggle.classList.toggle('active');
+      navLinks.classList.contains('open') ? closeMenu() : openMenu();
     });
+
+    navOverlay.addEventListener('click', closeMenu);
 
     // Close menu when clicking a link
     navLinks.querySelectorAll('a').forEach(link => {
-      link.addEventListener('click', () => {
-        navLinks.classList.remove('open');
-        menuToggle.classList.remove('active');
-      });
+      link.addEventListener('click', closeMenu);
     });
   }
 
